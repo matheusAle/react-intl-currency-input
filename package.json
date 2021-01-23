@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel src --out-dir dist",
     "prepublish": "npm run build",
+    "postinstall": "npm run build",
     "example:start": "npm run build && cd example && npm start"
   },
   "repository": {
